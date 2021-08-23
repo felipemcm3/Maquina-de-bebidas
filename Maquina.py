@@ -1,3 +1,8 @@
+def teste():
+
+    print('Estamos fazendo um teste no branch da maquina de refrigerante')
+
+
 separador = 100 * "*"
 print(separador)
 print("Escolha sua Bebida")
@@ -50,3 +55,5 @@ if(pagamento > preco):
     print("Seu troco foi {:.2F}\nRetire sua bebida.\nObrigado".format(troco))
 else:
     print("\nObrigado")
+
+teste()
